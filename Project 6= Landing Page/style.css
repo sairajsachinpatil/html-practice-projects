@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* common container */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* sections */
+.section {
+    padding: 40px 0;
+}
+
+/* header */
+#header {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* hero */
+#hero {
+    text-align: center;
+    background: lightblue;
+}
+
+/* features */
+#features {
+    display: flex;
+    text-align: center;
+}
+
+.card {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+/* buttons */
+.btn {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+}
+
+/* footer */
+#footer {
+    background: black;
+    color: white;
+    text-align: center;
+}

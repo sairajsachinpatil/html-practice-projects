@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Div Layout</title>
+</head>
+<body>
+
+<div id="header">Header</div>
+
+<div id="nav">Navigation</div>
+
+<div id="main">
+    <div id="sidebar">Sidebar</div>
+    <div id="content">Content</div>
+</div>
+
+<div id="footer">Footer</div>
+
+
+<style>
+#header, #nav, #footer {
+    background: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#main {
+    display: flex;
+}
+
+#sidebar {
+    width: 30%;
+    background: lightgray;
+}
+
+#content {
+    width: 70%;
+}
+</style>
+
+</body>
+</html>
